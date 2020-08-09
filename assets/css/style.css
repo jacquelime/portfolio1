@@ -1,0 +1,11 @@
+:root {
+    --snow: #FFFAFA;
+    --mustard-yellow: #DAA520;
+    --oxblood: #4A0000;
+    --teal: #08504A;
+}
+
+body {
+    background-color: var(--snow);
+}
+

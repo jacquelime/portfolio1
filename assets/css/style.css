@@ -9,3 +9,65 @@ body {
     background-color: var(--snow);
 }
 
+/* Nav Bar Style Start */
+.nav-item {
+    font-family: 'Barlow Condensed', sans-serif;
+    display: 
+}
+
+#navbar {
+    width: 100%;
+    background-color: var(--snow);
+
+}
+.navbar-nav {
+    
+}
+/* Nav Bar Style End */
+
+/* Hero Style Start */
+.hero-container {
+    background-image: url("../images/hero-image-portfolio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-position: center;
+}
+/* Hero Style Start */
+
+/* Portfolio Style Start */
+
+.project-container {
+    width: 30%;
+    border-color: var(--oxblood);
+    border-width: 5px;
+    border-style: solid;
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    display: grid;
+    width: 75%;
+    grid-template-columns: auto 300px 5fr 7fr;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.project-title h4 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.project-title p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Open Sans Condensed', sans-serif; */

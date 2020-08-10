@@ -227,3 +227,78 @@ body {
     padding-bottom: 5px
 }
 /* Portfolio Style End */
+
+/* Contact Style Start */
+.contact-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/contact-image-1600x800.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.contact-title {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.contact-title h2 {
+    text-transform: uppercase;
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+
+.contact-info {
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-area {
+    display: inline-block;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 100px;
+    width: 200px;
+    height: auto;
+}
+
+.contact-area:hover {
+    box-shadow: 10px 10px var(--teal);
+}
+
+.contact-text {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.contact-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000
+}
+
+.contact-link:hover {
+    color: var(--teal);
+}
+/* Contact Style End */
+
+/* Footer Style Start */
+.footer-container {
+    background-color: #757575;
+    margin: 0;
+    padding: 0;
+    border: 5px solid #757575;
+    text-align: center
+}
+
+.footer-text {
+    color: var(--snow);
+    padding: 20px;
+}
+/* Footer Style End */

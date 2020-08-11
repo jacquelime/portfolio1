@@ -306,17 +306,12 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 1600px) {
-    /* Nav Bar Style Start */
 
     /* Hero Style Start */
     .hero-container {
         height: 800px;
         background-image: url("../images/hero-image-1600x800.png")
     }
-
-    /* About Style Start */
-
-    /* Portfolio Style Start */
 
     /* Contact Style Start */
     .contact-info {
@@ -327,14 +322,9 @@ body {
         padding: 50px;
         width: 150px;
     }
-
-    /* Footer Style Start */
-    
 }
 
 @media screen and (max-width: 1200px) {
-    /* Nav Bar Style Start */
-
     /* Hero Style Start */
     .hero-container {
         height: 800px;
@@ -375,14 +365,10 @@ body {
     .contact-area {
         padding: 50px;
         width: 150px;
-    }
-
-    /* Footer Style Start */    
+    }    
 }
 
 @media screen and (max-width: 980px) {
-    /* Nav Bar Style Start */
-
     /* Hero Style Start */
     .hero-container {
         height: 600px;
@@ -428,22 +414,20 @@ body {
         padding: 50px;
         width: 150px;
     }
-    /* Footer Style Start */
-
 }
 
 @media screen and (max-width: 768px) {
-    /* Nav Bar Style Start */
-
     /* Hero Style Start */
-
-    /* About Style Start */
+    .hero-container {
+        height: 750px;
+        background-image: url("../images/hero-image-768x750.png")
+    }
 
     /* Portfolio Style Start */
-
-    /* Contact Style Start */
-
-    /* Footer Style Start */
+    .portfolio-container {
+        height: 650px;
+        background-image: url("../images/portfolio-image-768x650.png")
+    }
     
 }
 

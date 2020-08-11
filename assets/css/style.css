@@ -433,6 +433,42 @@ body {
 
 @media screen and (max-width: 575px) {
     /* Nav Bar Style Start */
+    .navbar-nav {
+        width: 300px;
+    }
+
+    .nav-item {
+        margin: 5px;
+        padding: 5px;
+    }
+    .nav-link {
+        font-size: 20px;
+    }
+
+    /* Hero Style Start */
+    .hero-container {
+        width: 100%
+    }
+
+    /* About Style Start */
+    .about-me {
+        height: 800px;
+        background-image: url("../images/about-image-575x800.png")
+    }
+
+    /* Contact Style Start */
+    .contact-info {
+        width: 400px;
+    }
+
+    .contact-container {
+        height: 1000px;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    /* Nav Bar Style Start */
 
     /* Hero Style Start */
 

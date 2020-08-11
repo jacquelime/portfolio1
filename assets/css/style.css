@@ -23,6 +23,9 @@ body {
     background-color: var(--snow);
     border-top: 5px solid var(--oxblood);
     box-shadow: 0 4px 2px -2px #E0E0E0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -512,4 +515,8 @@ body {
         height: 1100px;
     }
     
+    @media screen and (max-width: 420px) 
+    .portfolio-title {
+        padding-top 15vh;
+    }
 }

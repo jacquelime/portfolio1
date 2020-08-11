@@ -305,6 +305,33 @@ body {
 
 /* Media Queries */
 
+@media screen and (max-width: 1600px) {
+    /* Nav Bar Style Start */
+
+    /* Hero Style Start */
+    .hero-container {
+        height: 800px;
+        background-image: url("../images/hero-image-1600x800.png")
+    }
+
+    /* About Style Start */
+
+    /* Portfolio Style Start */
+
+    /* Contact Style Start */
+    .contact-info {
+        width: 800px;
+    }
+
+    .contact-area {
+        padding: 50px;
+        width: 150px;
+    }
+
+    /* Footer Style Start */
+    
+}
+
 @media screen and (max-width: 1200px) {
     /* Nav Bar Style Start */
 

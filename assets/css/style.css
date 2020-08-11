@@ -206,7 +206,7 @@ body {
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 5;
-    background-image: url("../images/rando-site.png");
+    background-image: url("../images/spacejam.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -302,3 +302,87 @@ body {
     padding: 20px;
 }
 /* Footer Style End */
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+    /* Nav Bar Style Start */
+
+    /* Hero Style Start */
+    .hero-container {
+        height: 600px;
+        background-image: url("../images/hero-image-980x600.png");
+    }
+
+    .hero-text {
+        padding-top: 20vh;
+    }
+
+    /* About Style Start */
+    .about-me {
+        height: 600px;
+        background-image: url("../images/about-image-980x600.png")
+    }
+
+    .about-text {
+        width: 40%;
+        padding-top: 12vh;
+    }
+
+    /* Portfolio Style Start */
+    .portfolio-container {
+        height: 800px;
+        background-image: url("../images/portfolio-image-980x800.png")
+    }
+
+    .portfolio-title {
+        padding-top: 5vh;
+    }
+
+    /* Contact Style Start */
+    .contact-container {
+        height: 800px;
+        background-image: url("../images/contact-image-980x800.png")
+    }
+
+    .contact-info {
+        width: 800px;
+    }
+
+    .contact-area {
+        padding: 50px;
+        width: 150px;
+    }
+    /* Footer Style Start */
+
+}
+
+@media screen and (max-width: 768px) {
+    /* Nav Bar Style Start */
+
+    /* Hero Style Start */
+
+    /* About Style Start */
+
+    /* Portfolio Style Start */
+
+    /* Contact Style Start */
+
+    /* Footer Style Start */
+    
+}
+
+@media screen and (max-width: 575px) {
+    /* Nav Bar Style Start */
+
+    /* Hero Style Start */
+
+    /* About Style Start */
+
+    /* Portfolio Style Start */
+
+    /* Contact Style Start */
+
+    /* Footer Style Start */
+    
+}

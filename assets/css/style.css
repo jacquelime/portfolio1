@@ -469,14 +469,34 @@ body {
 
 @media screen and (max-width: 380px) {
     /* Nav Bar Style Start */
+    .logo {
+        margin-left: 5px;
+    }
+
+    .navbar-nav {
+        width: 250px;
+    }
 
     /* Hero Style Start */
+    .hero-text {
+        width: 70%
+    }
+
+    .hero-title {
+        font-size: 80px
+    }
 
     /* About Style Start */
+    .about-text {
+        width: 70%
+    }
 
     /* Portfolio Style Start */
 
     /* Contact Style Start */
+    .contact-container {
+        height: 1100px;
+    }
 
     /* Footer Style Start */
     

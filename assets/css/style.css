@@ -113,6 +113,12 @@ body {
     padding-top: 20vh;
 }
 
+.about-picture {
+    height: 150px;
+    border-radius: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .about-title {
     text-transform: uppercase;
     font-size: 55px;
@@ -313,6 +319,11 @@ body {
         background-image: url("../images/hero-image-1600x800.png")
     }
 
+    /* About Style Start */
+    .about-me {
+        height: 600px
+    }
+
     /* Contact Style Start */
     .contact-info {
         width: 800px;
@@ -381,7 +392,7 @@ body {
 
     /* About Style Start */
     .about-me {
-        height: 600px;
+        height: 650px;
         background-image: url("../images/about-image-980x600.png")
     }
 
@@ -423,6 +434,11 @@ body {
         background-image: url("../images/hero-image-768x750.png")
     }
 
+    /* About Style Start */
+    .about-me {
+        height: 800px;
+    }
+
     /* Portfolio Style Start */
     .portfolio-container {
         height: 650px;
@@ -452,7 +468,7 @@ body {
 
     /* About Style Start */
     .about-me {
-        height: 800px;
+        height: 1000px;
         background-image: url("../images/about-image-575x800.png")
     }
 
@@ -491,13 +507,9 @@ body {
         width: 70%
     }
 
-    /* Portfolio Style Start */
-
     /* Contact Style Start */
     .contact-container {
         height: 1100px;
     }
-
-    /* Footer Style Start */
     
 }

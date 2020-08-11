@@ -305,6 +305,54 @@ body {
 
 /* Media Queries */
 
+@media screen and (max-width: 1200px) {
+    /* Nav Bar Style Start */
+
+    /* Hero Style Start */
+    .hero-container {
+        height: 800px;
+        background-image: url("../images/hero-image-1200x800.png");
+    }
+
+    .hero-text {
+        padding-top: 20vh;
+    }
+
+    /* About Style Start */
+    .about-me {
+        height: 800px;
+        background-image: url("../images/about-image-1200x800.png")
+    }
+
+    .about-text {
+        width: 30%;
+        padding-top: 10vh 
+    }
+
+    /* Portfolio Style Start */
+    .portfolio-container {
+        height: 800px;
+        background-image: url("../images/portfolio-image-1200x800.png")
+    }
+
+    /* Contact Style Start */
+    .contact-container {
+        height: 800px;
+        background-image: url("../images/contact-image-1200x800.png")
+    }
+
+    .contact-info {
+        width: 800px;
+    }
+
+    .contact-area {
+        padding: 50px;
+        width: 150px;
+    }
+
+    /* Footer Style Start */    
+}
+
 @media screen and (max-width: 980px) {
     /* Nav Bar Style Start */
 

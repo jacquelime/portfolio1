@@ -215,7 +215,7 @@ body {
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 5;
-    background-image: url("../images/spacejam.png");
+    background-image: url("../images/moodmusic.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -514,9 +514,5 @@ body {
     .contact-container {
         height: 1100px;
     }
-    
-    @media screen and (max-width: 420px) 
-    .portfolio-title {
-        padding-top 15vh;
-    }
+
 }

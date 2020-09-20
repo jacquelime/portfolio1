@@ -144,6 +144,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    overflow: hidden;
 }
 
 .portfolio-title {

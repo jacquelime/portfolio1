@@ -193,7 +193,7 @@ body {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 5;
-    background-image: url("../images/run-buddy-image.png");
+    background-image: url("../images/moodmusic.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -215,7 +215,7 @@ body {
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 5;
-    background-image: url("../images/moodmusic.png");
+    background-image: url("../images/run-buddy-image.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;

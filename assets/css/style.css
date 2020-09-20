@@ -58,7 +58,7 @@ body {
 }
 
 .nav-item:hover {
-    font-style: italic;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -177,7 +177,8 @@ body {
 }
 
 .portfolio-item:hover {
-    box-shadow: 10px 10px var(--teal);
+    box-shadow: 10px 10px var(--oxblood);
+    
 } 
 
 .portfolio-link {

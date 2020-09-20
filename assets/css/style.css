@@ -177,8 +177,8 @@ body {
 }
 
 .portfolio-item:hover {
-    opacity: 0.5
-}
+    box-shadow: 10px 10px var(--teal);
+} 
 
 .portfolio-link {
     position: absolute;

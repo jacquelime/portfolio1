@@ -59,6 +59,7 @@ body {
 
 .nav-item:hover {
     font-weight: bold;
+    color-adjust: var(--mustard-yellow);
 }
 
 .nav-link {
@@ -177,7 +178,7 @@ body {
 }
 
 .portfolio-item:hover {
-    box-shadow: 5px 5px var(--oxblood);
+    box-shadow: 5px 5px var(--mustard-yellow);
     
 } 
 
